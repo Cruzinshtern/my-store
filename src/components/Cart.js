@@ -17,7 +17,7 @@ function Cart() {
     }, [storedProducts.length])
 
     return (
-        <div className={styles.page}>
+        <div className={ styles.products }>
             {
                 isEmpty ? <h2>Add something here from the Store</h2> :
                 storedProducts.map(storedProduct =>
