@@ -1,0 +1,33 @@
+.card {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    border: solid thin;
+    box-shadow: 10px 5px 5px grey;
+}
+
+.discount_text {
+    text-align: center;
+}
+
+.button {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: aliceblue;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: greenyellow;
+    transition: 0.8s;
+}
+
+img {
+    height: 80px;
+    width: 100px;
+}
