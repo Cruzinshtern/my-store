@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import Product from "./Product";
-import styles from './styles/Store.module.css'
-import Context from "../Context";
+import styles from '../styles/Store.module.css'
+import Context from "../../Context";
 
 function Store() {
 

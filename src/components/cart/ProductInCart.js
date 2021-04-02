@@ -1,10 +1,10 @@
 import { useRef, useState } from "react";
-import styles from "./styles/Product.module.css";
+import styles from "../styles/Product.module.css";
 
 function ProductInCart({ storedProduct }) {
 
-    const EVERY_NTH_KGDISCOUNTED = process.env.REACT_APP_EVERY_NTH_KGDISCOUNTED;
-    const DISCOUNT = process.env.REACT_APP_DISCOUNT;
+    const EVERY_NTH_KGDISCOUNTED = process.env.REACT_APP_EVERY_NTH_KGDISCOUNTED || 3;
+    const DISCOUNT = process.env.REACT_APP_DISCOUNT || 0.5;
 
     const [price, setPrice] = useState(storedProduct.price);
     const [qt, setQt] = useState(1)

@@ -1,6 +1,6 @@
-import styles from '../components/styles/Product.module.css'
+import styles from '../styles/Product.module.css'
 import { useContext } from "react";
-import Context from "../Context";
+import Context from "../../Context";
 
 
 function RemoveFromCartButton({ product, setIsAdded }) {

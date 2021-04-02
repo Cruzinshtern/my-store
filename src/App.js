@@ -2,11 +2,11 @@ import { useEffect, useState } from "react";
 import './App.css';
 import Context from "./Context";
 import { data } from "./service/mockServiceData";
-import Navbar from "./components/Navbar";
-import Store from "./components/Store";
+import Navbar from "./components/shared/Navbar";
+import Store from "./components/store/Store";
 import 'materialize-css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Cart from "./components/Cart";
+import Cart from "./components/cart/Cart";
 
 
 function App() {

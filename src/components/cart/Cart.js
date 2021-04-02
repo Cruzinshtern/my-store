@@ -1,7 +1,7 @@
 import { useContext, useEffect, useState } from "react";
-import Context from "../Context";
+import Context from "../../Context";
 import ProductInCart from "./ProductInCart";
-import styles from "./styles/Store.module.css";
+import styles from "../styles/Store.module.css";
 
 function Cart() {
 

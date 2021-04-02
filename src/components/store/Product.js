@@ -1,10 +1,10 @@
 import { useContext, useEffect, useState } from "react";
-import styles from '../components/styles/Product.module.css'
-import Context from "../Context";
-import RemoveFromCartButton from "./RemoveFromCartButton";
-import banana from '../assets/banana.jpg'
-import apple from '../assets/apple.png'
-import papaya from '../assets/papaya.jpeg'
+import styles from '../styles/Product.module.css'
+import Context from "../../Context";
+import RemoveFromCartButton from "../helpers/RemoveFromCartButton";
+import banana from '../../assets/banana.jpg'
+import apple from '../../assets/apple.png'
+import papaya from '../../assets/papaya.jpeg'
 
 
 function Product({ product }) {
